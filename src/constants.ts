@@ -59,10 +59,10 @@ export type RouteHandlerMethod<
     RequestType
   >,
   reply: FastifyReply<
+    RouteGeneric,
     RawServer,
     RawRequest,
     RawReply,
-    RouteGeneric,
     ContextConfig,
     SchemaCompiler,
     TypeProvider,

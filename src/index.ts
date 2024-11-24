@@ -61,6 +61,6 @@ const plugin: FastifyPluginCallback<ExtractorOptions> = async (
 };
 
 export default fastifyPlugin(plugin, {
-  fastify: '4.x',
+  fastify: '5.x',
   name: 'fastify-extract-definitions',
 });
